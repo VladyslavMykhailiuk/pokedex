@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    width: 30%;
+    margin: 30px auto 0 auto;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.left-content {
+    flex-basis: 60%;
+}
+
+.right-content {
+    flex-basis: 40%;
+}
+
+
+
+.left-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 2.8rem;
+}
+
+.card {
+    text-align: center;
+    width: 80%;
+    background-color: blue;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 80%;
+}
+
+.right-content {
+    width: 40%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 150px;
+    right: 10px;
+}
+
+.right-content img {
+    margin: 2rem;
+    height: 180px;
+}
+
+.right-content h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.abilities {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.group {
+    background-color: brown;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.group:not(:first-child) {
+    margin-left: 20px;
+}
+
+.base-stat {
+    margin-top: 2rem;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-group button {
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+
+.info img {
+    width: 80%;
+}
+
+.info h1 {
+    font-size: 20px;
+}
