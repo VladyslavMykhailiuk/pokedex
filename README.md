@@ -27,6 +27,10 @@ Filter visible pokemons by type
 
 For this task you can use any css/js library/framework.
 
+### Deploy
+
+https://pokedex-ten-olive.vercel.app/
+
 #### Handing in task
 Source code of the task should be available through the GitHub. There should be README.md (markdown file) file with clear instructions on how to run client app. It is preferable to have standalone running app using github-pages (just push your code to gh-pages branch of the repo).
 
